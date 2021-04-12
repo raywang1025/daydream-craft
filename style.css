@@ -1,0 +1,49 @@
+body {
+    background-color: aqua;
+}
+
+
+/* navigation */
+
+.navigation ul {
+    list-style-type: none;
+    float: right;
+    margin-right: 30px;
+}
+
+.navigation .logo {
+    float: left;
+    margin-left: 30px;
+}
+
+.navigation li {
+    /* text-decoration: none; */
+    float: left;
+    margin-left: 30px;
+    margin-top: 16px;
+}
+
+
+/* box */
+
+section.box {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+h2.work,
+h5.description {
+    text-align: center;
+    display: block;
+}
+
+.work-item {
+    max-width: 31.33%;
+    margin: 0 1%;
+    float: left;
+    background-color: gray;
+}
+
+.clearfix {
+    clear: both;
+}

@@ -23,6 +23,17 @@ body {
     margin-top: 16px;
 }
 
+@media screen and (max-width:639px) {
+    .navigation .logo {
+        width: 100%;
+        text-align: center;
+    }
+    .logo>h1,
+    .logo>h2 {
+        font-size: 44px;
+    }
+}
+
 
 /* box */
 
@@ -41,9 +52,31 @@ h5.description {
     max-width: 31.33%;
     margin: 0 1%;
     float: left;
-    background-color: gray;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
 }
 
 .clearfix {
     clear: both;
+}
+
+@media screen and (max-width:639px) {
+    h2.work {
+        text-align: left;
+        display: block;
+        margin: 32px 0px 0px 1%
+    }
+    h5.description {
+        text-align: left;
+        display: block;
+        margin: 0 0 1% 1%;
+    }
+    .work-item {
+        max-width: 100%;
+        margin: 0 1%;
+        float: none;
+    }
 }

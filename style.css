@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background: linear-gradient(to bottom, lightblue 0%, white 100%);
 }
 
 
@@ -39,6 +39,21 @@ body {
         font-size: 44px;
     }
 }
+
+
+/* .btnSpace {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.callBtn {
+    float: left;
+    background-color: gray;
+    width: 200px;
+    height: 25px;
+    border: none;
+    border-radius: 45px;
+} */
 
 
 /* box */

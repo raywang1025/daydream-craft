@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onload="init()">
+    <form enctype="text/plain" accept-charset="utf-8">
+        <input id="nameText" type="text" name="Name" value size="60" placeholder="姓名(name)" required>
+        <input id="emailText" type="email" name="Email" value size="60" placeholder="Email" required>
+        <input id="telText" type="tel" name="Phone" aria-invalid="false" value size="60" placeholder="電話(phone)" required>
+        <input id="subText" type="text" name="Subject" aria-invalid="false" value size="60" placeholder="主旨(phone)" required>
+        <textarea id="bodyText" name="your-message" cols="40" rows="10" aria-reauired="true" aria-invalid="false" placeholder="你的訊息(YourMessage)" required></textarea>
+
+        <div>
+            <input type="button" value="送出訊息" onclick="submitHandler();">
+            <a id="mailTo"></a>
+        </div>
+    </form>
+    <script src="contact.js"></script>
+</body>
+
+</html>
